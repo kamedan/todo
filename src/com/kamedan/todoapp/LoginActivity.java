@@ -3,6 +3,7 @@ package com.kamedan.todoapp;
 import java.util.regex.Pattern;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Patterns;
@@ -78,6 +79,8 @@ public class LoginActivity extends Activity implements OnClickListener {
 	private void login(String username, String password) {
 		if( username.equals("test") && password.equals("test")){
 		Toast.makeText(getApplicationContext(), "login ok", Toast.LENGTH_SHORT).show();
+		Intent intent = new Intent(getApplicationContext(), TodoListActivity.class);
+		startActivity(intent);
 		}
 	}
 }
