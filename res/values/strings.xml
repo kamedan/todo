@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TodoApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">login</string>
+    <string name="enter_your_username">Enter your username</string>
+    <string name="enter_your_password">enter your password</string>
+    <string name="this_is_an_empty_field">this is an empty field</string>
+    <string name="invalid_email_login">invalid email</string>
+    <string name="title_activity_todo_list">Todo</string>
+
+</resources>
