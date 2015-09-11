@@ -3,9 +3,27 @@
     tools:context="com.kamedan.todoapp.TodoListActivity" >
 
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_add"
+        android:title="@string/add"
+        android:icon="@drawable/ic_add_white_24dp"
+        android:showAsAction="always|withText"
         android:orderInCategory="100"
+        />
+    
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/refresh"
+        android:icon="@drawable/ic_autorenew_white_24dp"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="101"
+        />
+    
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"
         android:showAsAction="never"
-        android:title="@string/action_settings"/>
+        android:orderInCategory="102"
+        />
+        
 
 </menu>

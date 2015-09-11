@@ -10,5 +10,10 @@
     <string name="this_is_an_empty_field">this is an empty field</string>
     <string name="invalid_email_login">invalid email</string>
     <string name="title_activity_todo_list">Todo</string>
+    <string name="add">Add</string>
+    <string name="refresh">refresh</string>
+    <string name="title_activity_add_todo">Add new note</string>
+    <string name="new_task_et">new task</string>
+    <string name="done_cb">Done</string>
 
 </resources>

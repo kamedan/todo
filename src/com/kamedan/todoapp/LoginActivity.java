@@ -59,7 +59,7 @@ public class LoginActivity extends Activity implements OnClickListener {
 	public void onClick(View arg0) {
 		String username = usernameEdit.getText().toString();
 		String password = passwordEdit.getText().toString();
-		Boolean isError = false;
+		boolean isError = false;
 		
 		if(TextUtils.isEmpty(username)){
 			usernameEdit.setError(getString(R.string.this_is_an_empty_field));
@@ -79,8 +79,10 @@ public class LoginActivity extends Activity implements OnClickListener {
 	private void login(String username, String password) {
 		if( username.equals("test") && password.equals("test")){
 		Toast.makeText(getApplicationContext(), "login ok", Toast.LENGTH_SHORT).show();
+		
 		Intent intent = new Intent(getApplicationContext(), TodoListActivity.class);
 		startActivity(intent);
+		finish();
 		}
 	}
 }
